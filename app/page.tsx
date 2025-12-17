@@ -108,7 +108,7 @@ export default function Home() {
                 Kolaan Moses Yendukua
               </h1>
               <p className="text-xl text-gray-700 mb-4 leading-relaxed font-medium">
-                Computer Scientist, Educator &amp; Conservationist
+                Computer Scientist, Educator & Conservationist
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Passionate about developing assistive technologies and digital solutions that promote inclusion for women with disabilities in Africa. Dedicated conservationist working on marine conservation initiatives. Combining technology, education, conservation, and advocacy to drive sustainable social change.
@@ -461,7 +461,7 @@ export default function Home() {
       {/* Skills & Languages */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-purple-50 to-blue-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-12 text-center">Skills &amp; Languages</h2>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-12 text-center">Skills & Languages</h2>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Skills */}
