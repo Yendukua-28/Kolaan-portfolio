@@ -2,9 +2,8 @@
 
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-import { Mail, Linkedin, Github, ExternalLink, ArrowRight, Sparkles, Award, Briefcase, BookOpen, Users, Globe, Code, Target, Leaf } from 'lucide-react'
+import { Mail, Linkedin, ExternalLink, ArrowRight, Sparkles, Award, Briefcase, BookOpen, Users, Globe, Code, Target, Leaf } from 'lucide-react'
 import Image from 'next/image'
-import Link from 'next/link'
 import { useState } from 'react'
 
 export default function Home() {
@@ -109,7 +108,7 @@ export default function Home() {
                 Kolaan Moses Yendukua
               </h1>
               <p className="text-xl text-gray-700 mb-4 leading-relaxed font-medium">
-                Computer Scientist, Educator & Conservationist
+                Computer Scientist, Educator &amp; Conservationist
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Passionate about developing assistive technologies and digital solutions that promote inclusion for women with disabilities in Africa. Dedicated conservationist working on marine conservation initiatives. Combining technology, education, conservation, and advocacy to drive sustainable social change.
@@ -153,7 +152,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm an emerging computer scientist, educator, and conservationist with a passion for developing assistive technologies and digital solutions. My mission is to promote inclusion for women with disabilities across Africa while protecting our natural environment.
+                I&apos;m an emerging computer scientist, educator, and conservationist with a passion for developing assistive technologies and digital solutions. My mission is to promote inclusion for women with disabilities across Africa while protecting our natural environment.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
                 With experience in teaching, mentoring, leading community-based STEM initiatives, and marine conservation work, I combine strategic thinking with practical execution to deliver meaningful results. I believe in the power of collaboration, lifelong learning, and making a positive impact in everything I do.
@@ -380,7 +379,7 @@ export default function Home() {
           <Card className="p-8 border-2 border-green-200 shadow-lg bg-gradient-to-br from-green-50 to-blue-50">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent mb-6">Conservation Philosophy</h3>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              I believe that conservation is not just about protecting nature—it's about creating sustainable solutions that benefit both ecosystems and communities. By combining technology, research, and community engagement, we can develop innovative approaches to environmental challenges.
+              I believe that conservation is not just about protecting nature—it&apos;s about creating sustainable solutions that benefit both ecosystems and communities. By combining technology, research, and community engagement, we can develop innovative approaches to environmental challenges.
             </p>
             <p className="text-gray-700 leading-relaxed">
               My conservation work is driven by the conviction that environmental protection and social inclusion go hand in hand. Sustainable development requires empowering all members of society, including women and people with disabilities, to participate in conservation efforts and benefit from environmental initiatives.
@@ -462,7 +461,7 @@ export default function Home() {
       {/* Skills & Languages */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 via-purple-50 to-blue-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-12 text-center">Skills & Languages</h2>
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-12 text-center">Skills &amp; Languages</h2>
           
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Skills */}
